@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  mem-game:
+    image: memory-game:latest  # Replace with your Docker Hub username and image name
+    ports:
+      - "8800:80"  # Map host port 8080 to container port 80
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
