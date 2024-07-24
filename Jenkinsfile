@@ -41,7 +41,7 @@ pipeline {
 							-d disable_web_page_preview=true \
 							-d text="<b>Stage</b>: Deploy Project ${PROJECT_NAME} \
 							%0A<b>Status</b>: ${currentBuild.currentResult} \
-							%0A<b>Version</b>: ${APP_ENV}-101 \
+							%0A<b>Version</b>: ${APP_ENV}-01 \
 							%0A<b>Environment</b>: Docker-${APP_ENV} \
 							%0A<b>Application URL</b>: ${APP_URL} \
 							%0A<b>User Build</b>: ${BUILD_USER} \
